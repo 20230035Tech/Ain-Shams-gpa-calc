@@ -167,8 +167,22 @@ function createCourseRow() {
       <input name="credits" type="number" min="0" step="0.5" placeholder="3">
     </label>
     <label>
-      Percentage
-      <input name="percentage" type="number" min="0" max="100" step="1" placeholder="88">
+      Letter grade
+      <select name="letterGrade">
+        <option value="">Select grade</option>
+        <option>A+</option>
+        <option>A</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B</option>
+        <option>B-</option>
+        <option>C+</option>
+        <option>C</option>
+        <option>C-</option>
+        <option>D+</option>
+        <option>D</option>
+        <option>F</option>
+      </select>
     </label>
     <button class="remove-row-btn secondary-btn" type="button">Remove</button>
   `;
